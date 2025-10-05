@@ -41,7 +41,38 @@ text-decoration: none;
 .App-link {
   color: #61dafb;
 }
-
+.register{
+  /* height: 100vh; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    /* align-content: center; */
+    margin-top: 10%;
+    background-color: white;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.input{
+  display: block;
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    /* text-align: center; */
+}
+.button{
+  padding: 5px;
+  border-radius: 15px;
+  width: 5%;
+  cursor: pointer;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

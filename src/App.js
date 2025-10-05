@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './component/nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './component/footer';
-
+import Signup from './component/signup';
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
         <Route path="/update" element={<h1>Update Product</h1>}></Route>
         <Route path="/logout" element={<h1>Logout</h1>}></Route>
         <Route path="/profile" element={<h1>Profile</h1>}></Route>
+        <Route path="/signup" element={<Signup/>}>Signup</Route>
       </Routes>
       <Footer/>
       </BrowserRouter>
